@@ -1,0 +1,260 @@
+print("********************************************************************")
+print()
+print("WELCOME TO QUIZ WORLD !!!!")
+print()
+print("********************************************************************")
+print()
+n=input("Enter your name  : ")
+print()
+print("Hello" ,n ," , nice meeting you  , Lets have some Fun :)")
+print()
+
+play = True
+while play == True:
+    print()
+    print("Select the quiz you want to play!!!")
+    print('''
+    (1) BIOLOGY
+    (2) HISTORY
+    (3) PHYSICS
+    (4) CHEMISTERY
+    (5) MATHS
+    (6) COMPUTER SCIENCE
+    (7) SPORTS
+    (8) G.K 
+     ''')
+    print()
+    s= input(' Enter your choice (1/2/3/4/5/6/7/8): ')
+    print()
+    if s == '1' :
+        questions ={BQ1:'c',BQ2:'b',BQ3:'b',BQ4:'d',BQ5:'c',BQ6: 'b',BQ7:'a',BQ8:'c',BQ9:'b',BQ10:'b'}
+        score1=0
+        for i in questions :
+             print(i)
+             print()   
+             ans=input("Enter the answer (a/b/c/d):")
+             if ans== questions[i]:
+                 print()
+                 print("Well done you entered correct answer,you got +1 point")
+                 score1=score1+1
+                 print("Current score is: ", score1)
+                 print()
+         
+             else:
+                 print()
+                 print("Ooh , you entered wrong answer")
+                 print("Current score is :",score1)
+                 print()           
+                   
+        print(' final score is :',score1 )
+        print()
+        w=(input("To exit program type - exit, To return to selection panel type - play: "))
+        if w == 'exit':
+            play =False
+        else :
+            continue 
+    print()
+
+    if s == '2' :
+        questions ={HQ1:'b',HQ2:'a',HQ3:'d',HQ4:'a',HQ5:'c',HQ6: 'd',HQ7:'a',HQ8:'b',HQ9:'a',HQ10:'b'}
+        score2=0
+        for i in questions :
+             print(i)
+             print()   
+             ans=input("Enter the answer (a/b/c/d):")
+             if ans== questions[i]:
+                 print()
+                 print("Well done you entered correct answer,you got +1 point")
+                 score2=score2+1
+                 print("Current score is: ", score2)
+                 print()
+         
+             else:
+                 print()
+                 print("Ooh , you entered wrong answer")
+                 print("Current score is :",score2)
+                 print()           
+                   
+        print(' final score is :',score2 )
+        print()
+        w=(input("To exit program type - exit, To return to selection panel type - play: "))
+        if w == 'exit':
+            play =False
+        else :
+            continue 
+    print()
+
+    if s == '3' :
+        questions ={PQ1:'a',PQ2:'c',PQ3:'c',PQ4:'a',PQ5:'c',PQ6: 'c',PQ7:'d',PQ8:'a',PQ9:'b',PQ10:'b'}
+        score3=0
+        for i in questions :
+             print(i)
+             print()   
+             ans=input("Enter the answer (a/b/c/d):")
+             if ans== questions[i]:
+                 print()
+                 print("Well done you entered correct answer,you got +1 point")
+                 score3=score3+1
+                 print("Current score is: ", score3)
+                 print()
+         
+             else:
+                 print()
+                 print("Ooh , you entered wrong answer")
+                 print("Current score is :",score3)
+                 print()           
+                   
+        print(' final score is :',score3 )
+        print()
+        w=(input("To exit program type - exit, To return to selection panel type - play: "))
+        if w == 'exit':
+            play =False
+        else :
+            continue 
+    print()
+
+    if s == '4' :
+        questions ={CQ1:'c',CQ2:'b',CQ3:'c',CQ4:'d',CQ5:'b',CQ6: 'b',CQ7:'a',CQ8:'a',CQ9:'c',CQ10:'a'}
+        score4=0
+        for i in questions :
+             print(i)
+             print()   
+             ans=input("Enter the answer (a/b/c/d):")
+             if ans== questions[i]:
+                 print()
+                 print("Well done you entered correct answer,you got +1 point")
+                 score4=score4+1
+                 print("Current score is: ", score4)
+                 print()
+         
+             else:
+                 print()
+                 print("Ooh , you entered wrong answer")
+                 print("Current score is :",score4)
+                 print()           
+                   
+        print(' final score is :',score4 )
+        print()
+        w=(input("To exit program type - exit, To return to selection panel type - play: "))
+        if w == 'exit':
+            play =False
+        else :
+            continue 
+    print()
+
+    if s == '5' :
+        questions ={MQ1:'a',MQ2:'b',MQ3:'c',MQ4:'d',MQ5:'a',MQ6: 'c',MQ7:'b',MQ8:'c',MQ9:'a',MQ10:'a'}
+        score5=0
+        for i in questions :
+             print(i)
+             print()   
+             ans=input("Enter the answer (a/b/c/d):")
+             if ans== questions[i]:
+                 print()
+                 print("Well done you entered correct answer,you got +1 point")
+                 score5=score5+1
+                 print("Current score is: ", score5)
+                 print()
+         
+             else:
+                 print()
+                 print("Ooh , you entered wrong answer")
+                 print("Current score is :",score5)
+                 print()           
+                   
+        print(' final score is :',score5 )
+        print()
+        w=(input("To exit program type - exit, To return to selection panel type - play: "))
+        if w == 'exit':
+            play =False
+        else :
+            continue 
+    print()
+
+    if s == '6' :
+        questions ={CSQ1:'c',CSQ2:'a',CSQ3:'b',CSQ4:'d',CSQ5:'a',CSQ6: 'c',CSQ7:'c',CSQ8:'d',CSQ9:'b',CSQ10:'b'}
+        score6=0
+        for i in questions :
+             print(i)
+             print()   
+             ans=input("Enter the answer (a/b/c/d):")
+             if ans== questions[i]:
+                 print()
+                 print("Well done you entered correct answer,you got +1 point")
+                 score6=score6+1
+                 print("Current score is: ", score6)
+                 print()
+         
+             else:
+                 print()
+                 print("Ooh , you entered wrong answer")
+                 print("Current score is :",score6)
+                 print()           
+                   
+        print(' final score is :',score6 )
+        print()
+        w=(input("To exit program type - exit, To return to selection panel type - play: "))
+        if w == 'exit':
+            play =False
+        else :
+            continue 
+    print()
+
+    if s == '7' :
+        questions ={SQ1:'c',SQ2:'b',SQ3:'a',SQ4:'d',SQ5:'a',SQ6: 'a',SQ7:'c',SQ8:'c',SQ9:'a',SQ10:'b'}
+        score7=0
+        for i in questions :
+             print(i)
+             print()   
+             ans=input("Enter the answer (a/b/c/d):")
+             if ans== questions[i]:
+                 print()
+                 print("Well done you entered correct answer,you got +1 point")
+                 score7=score7+1
+                 print("Current score is: ", score7)
+                 print()
+         
+             else:
+                 print()
+                 print("Ooh , you entered wrong answer")
+                 print("Current score is :",score7)
+                 print()           
+                   
+        print(' final score is :',score7 )
+        print()
+        w=(input("To exit program type - exit, To return to selection panel type - play: "))
+        if w == 'exit':
+            play =False
+        else :
+            continue 
+    print()
+
+    if s == '8' :
+        questions ={GKQ1:'d',GKQ2:'a',GKQ3:'b',GKQ4:'c',GKQ5:'a',GKQ6: 'b',GKQ7:'a',GKQ8:'c',GKQ9:'a',GKQ10:'d'}
+        score8=0
+        for i in questions :
+             print(i)
+             print()   
+             ans=input("Enter the answer (a/b/c/d):")
+             if ans== questions[i]:
+                 print()
+                 print("Well done you entered correct answer,you got +1 point")
+                 score8=score8+1
+                 print("Current score is: ", score8)
+                 print()
+         
+             else:
+                 print()
+                 print("Ooh , you entered wrong answer")
+                 print("Current score is :",score8)
+                 print()           
+                   
+        print(' final score is :',score8 )
+        print()
+        w=(input("To exit program type - exit, To return to selection panel type - play: "))
+        if w == 'exit':
+            play =False
+        else :
+            continue 
+    print()
+
